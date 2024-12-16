@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Nexcent</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header" id="header-logo">
+                <div class="header__container">
+                    <img src="img/icons/Logo.svg" alt="logo"
+                        class="header__logo">
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Service</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Feature</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Product</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Testimonial</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">FAQ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <div class="header__login">
+                        <a href="#" class="login-link">Login</a>
+                        <div class="login hidden" id="login-modal">
+                            <div class="login__content">
+                                <h2 class="login__title">Log<span>in</span></h2>
+                                <form class="login__form">
+                                    <label for="login-username"
+                                        class="login__label">Username:</label>
+                                    <input class="login__input" type="text"
+                                        id="login-username" name="username"
+                                        required>
+                                    <label for="login-password"
+                                        class="login__label">Password:</label>
+                                    <input class="login__input" type="password"
+                                        id="login-password" name="password"
+                                        required>
+                                    <div class="login__buttons">
+                                        <button class="login__close">Close</button>
+                                        <button type="submit" class="login__button">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <a href="#" class="sign-up">Sign up</a>
+                        <div class="login hidden" id="signup-modal">
+                            <div class="login__content">
+                                <h2 class="login__title">Sign <span>up</span></h2>
+                                <form class="login__form">
+                                    <label for="signup-username"
+                                        class="login__label">Username:</label>
+                                    <input class="login__input" type="text"
+                                        id="signup-username" name="username"
+                                        required>
+                                    <label for="signup-password"
+                                        class="login__label">Password:</label>
+                                    <input class="login__input" type="password"
+                                        id="signup-password" name="password"
+                                        required>
+                                    <div class="login__buttons">
+                                        <button class="login__close">Close</button>
+                                        <button type="submit" class="login__button">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="page">
+                <section class="page__hero hero">
+                    <div class="hero__container">
+                        <div class="hero__info">
+                            <h1 class="hero__title">Lessons and insights <span
+                                    class="hero__title--span">from 8
+                                    years</span></h1>
+                            <p class="hero__text">Where to grow your business as
+                                a photographer: site or social media?</p>
+                            <button class="hero__button">Register</button>
+                        </div>
+                        <img src="./img/Illustration.svg" alt="main img"
+                            class="hero__img">
+                    </div>
+                </section>
+                <section class="page__clients clients">
+                    <div class="clients__container">
+                        <div class="clients__info">
+                            <h2 class="clients__title">Our Clients</h2>
+                            <p class="clients__text">We have been working with
+                                some Fortune 500+ clients</p>
+                        </div>
+                        <div class="clients__icons">
+                            <a href="#" class="clients__icon">
+                                <img src="./img/icons/icon1.svg" alt="icon"
+                                    class="clients__img">
+                            </a>
+                            <a href="#" class="clients__icon">
+                                <img src="./img/icons/icon2.svg" alt="icon"
+                                    class="clients__img">
+                            </a>
+                            <a href="#" class="clients__icon">
+                                <img src="./img/icons/icon3.svg" alt="icon"
+                                    class="clients__img">
+                            </a>
+                            <a href="#" class="clients__icon">
+                                <img src="./img/icons/icon4.svg" alt="icon"
+                                    class="clients__img">
+                            </a>
+                            <a href="#" class="clients__icon">
+                                <img src="./img/icons/icon5.svg" alt="icon"
+                                    class="clients__img">
+                            </a>
+                            <a href="#" class="clients__icon">
+                                <img src="./img/icons/icon6.svg" alt="icon"
+                                    class="clients__img">
+                            </a>
+                            <a href="#" class="clients__icon">
+                                <img src="./img/icons/icon3.svg" alt="icon"
+                                    class="clients__img">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="page__comunity community">
+                    <div class="community__container">
+                        <div class="community__info">
+                            <h2 class="community__title">Manage your entire
+                                community in a single system</h2>
+                            <p class="community__text">Who is Nextcent suitable
+                                for?</p>
+                        </div>
+                        <div class="community__columns">
+                            <div class="column">
+                                <div class="column__shape">
+                                    <img src="./img/icons/people.svg"
+                                        alt="people icon" class="column__icon">
+                                </div>
+                                <h3 class="column__title">Membership
+                                    Organisations</h3>
+                                <p class="column__text">Our membership
+                                    management software provides full automation
+                                    of membership renewals and payments</p>
+                            </div>
+                            <div class="column">
+                                <div class="column__shape">
+                                    <img src="./img/icons/buildings.svg"
+                                        alt="buildings icon"
+                                        class="column__icon">
+                                </div>
+                                <h3 class="column__title">National
+                                    Associations</h3>
+                                <p class="column__text">Our membership
+                                    management software provides full automation
+                                    of membership renewals and payments</p>
+                            </div>
+                            <div class="column">
+                                <div class="column__shape">
+                                    <img src="./img/icons/hands.svg"
+                                        alt="hands icon" class="column__icon">
+                                </div>
+                                <h3 class="column__title">Clubs And Groups</h3>
+                                <p class="column__text">Our membership
+                                    management software provides full automation
+                                    of membership renewals and payments</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page__info info">
+                    <div class="info__container">
+                        <img src="./img/mobile-login.svg" alt="login image"
+                            class="info__img">
+                        <div class="info__info">
+                            <h2 class="info__title">The unseen of spending three
+                                years at Pixelgrade</h2>
+                            <p class="info__text">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Sed sit amet justo
+                                ipsum. Sed accumsan quam vitae est varius
+                                fringilla. Pellentesque placerat vestibulum
+                                lorem sed porta. Nullam mattis tristique
+                                iaculis. Nullam pulvinar sit amet risus pretium
+                                auctor. Etiam quis massa pulvinar, aliquam quam
+                                vitae, tempus sem. Donec elementum pulvinar
+                                odio.
+                            </p>
+                            <button class="info__button">Learn More</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="page__business business">
+                    <div class="business__container">
+                        <div class="business__text">
+                            <h2 class="business__title">Helping a local
+                                <span>business reinvent itself</span></h2>
+                            <p class="business__subtitle">We reached here with
+                                our hard work and dedication</p>
+                        </div>
+                        <div class="business__info">
+                            <div class="group">
+                                <img src="./img/icons/two_people.svg"
+                                    alt="two people" class="group__img">
+                                <div class="group__info">
+                                    <p class="group__number"
+                                        id="members">2,245,341</p>
+                                    <p class="group__text">Members</p>
+                                </div>
+                            </div>
+                            <div class="group">
+                                <img src="./img/icons/green_hands.svg"
+                                    alt="three hands" class="group__img">
+                                <div class="group__info">
+                                    <p class="group__number"
+                                        id="clubs">46,328</p>
+                                    <p class="group__text">Clubs</p>
+                                </div>
+                            </div>
+                            <div class="group">
+                                <img src="./img/icons/finger.svg" alt="finger"
+                                    class="group__img">
+                                <div class="group__info">
+                                    <p class="group__number"
+                                        id="eventBookings">828,867</p>
+                                    <p class="group__text">Event Bookings</p>
+                                </div>
+                            </div>
+                            <div class="group">
+                                <img src="./img/icons/wallet.svg" alt="wallet"
+                                    class="group__img">
+                                <div class="group__info">
+                                    <p class="group__number"
+                                        id="payments">1,926,436</p>
+                                    <p class="group__text">Payments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page__info info">
+                    <div class="info__container">
+                        <img src="./img/mobile-login2.svg" alt="login image"
+                            class="info__img">
+                        <div class="info__info">
+                            <h2 class="info__title">How to design your site
+                                footer like we did</h2>
+                            <p class="info__text">Donec a eros justo. Fusce
+                                egestas tristique ultrices. Nam tempor, augue
+                                nec tincidunt molestie, massa nunc varius arcu,
+                                at scelerisque elit erat a magna. Donec quis
+                                erat at libero ultrices mollis. In hac habitasse
+                                platea dictumst. Vivamus vehicula leo dui, at
+                                porta nisi facilisis finibus. In euismod augue
+                                vitae nisi ultricies, non aliquet urna
+                                tincidunt. Integer in nisi eget nulla commodo
+                                faucibus efficitur quis massa. Praesent felis
+                                est, finibus et nisi ac, hendrerit venenatis
+                                libero. Donec consectetur faucibus ipsum id
+                                gravida.
+                            </p>
+                            <button class="info__button">Learn More</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="page__about about">
+                    <div class="about__container">
+                        <img src="./img/tesla.png" alt="Tesla image"
+                            class="about__img">
+                        <div class="about__info">
+                            <p class="about__text">
+                                Maecenas dignissim justo eget nulla rutrum
+                                molestie. Maecenas lobortis sem dui, vel rutrum
+                                risus tincidunt ullamcorper. Proin eu enim
+                                metus. Vivamus sed libero ornare, tristique quam
+                                in, gravida enim. Nullam ut molestie arcu, at
+                                hendrerit elit. Morbi laoreet elit at ligula
+                                molestie, nec molestie mi blandit. Suspendisse
+                                cursus tellus sed augue ultrices, quis tristique
+                                nulla sodales. Suspendisse eget lorem eu turpis
+                                vestibulum pretium. Suspendisse potenti. Quisque
+                                malesuada enim sapien, vitae placerat ante
+                                feugiat eget. Quisque vulputate odio neque, eget
+                                efficitur libero condimentum id. Curabitur id
+                                nibh id sem dignissim finibus ac sit amet magna.
+                            </p>
+                            <h3 class="about__title">Tim Smith</h3>
+                            <p class="about__subtitle">British Dragon Boat
+                                Racing Association</p>
+                            <div class="about__links">
+                                <div class="about__icons">
+                                    <img src="./img/icons/icon1.1.svg"
+                                        alt="logo"
+                                        class="about__icon">
+                                    <img src="./img/icons/icon2.svg" alt="logo"
+                                        class="about__icon">
+                                    <img src="./img/icons/icon3.svg" alt="logo"
+                                        class="about__icon">
+                                    <img src="./img/icons/icon4.svg" alt="logo"
+                                        class="about__icon">
+                                    <img src="./img/icons/icon5.svg" alt="logo"
+                                        class="about__icon">
+                                    <img src="./img/icons/icon6.svg" alt="logo"
+                                        class="about__icon">
+                                </div>
+                                <a href="#" class="about__link">Meet all
+                                    customers</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page__marketing marketing">
+                    <div class="marketing__container">
+                        <div class="marketing__info">
+                            <h2 class="marketing__title">Caring is the new
+                                marketing</h2>
+                            <p class="marketing__text">
+                                The Nexcent blog is the
+                                best place to read about the latest membership
+                                insights, trends and more. See who's joining the
+                                community, read about how our community are
+                                increasing their membership income and lot's
+                                more.
+                            </p>
+                        </div>
+                        <div class="marketing__cards">
+                            <div class="marketing__card card">
+                                <img src="./img/card1.png" alt="human"
+                                    class="card__img">
+                                <div class="card__info">
+                                    <p class="card__text">Creating Streamlined
+                                        Safeguarding Processes with OneRen
+                                        <span class="card__textmore">
+                                            Lorem,
+                                            ipsum dolor sit amet consectetur
+                                            adipisicing elit. Necessitatibus,
+                                            aliquid consectetur ut a
+                                            exercitationem assumenda omnis
+                                            molestiae quibusdam sunt sit!
+                                        </span>
+                                    </p>
+                                    <button class="card__link">Readmore</button>
+                                </div>
+                            </div>
+                            <div class="marketing__card card">
+                                <img src="./img/card2.png" alt="macbook"
+                                    class="card__img">
+                                <div class="card__info">
+                                    <p class="card__text">What are your
+                                        safeguarding responsibilities and how
+                                        can you manage them?
+                                        <span class="card__textmore">
+                                            Lorem,
+                                            ipsum dolor sit amet consectetur
+                                            adipisicing elit. Necessitatibus,
+                                            aliquid consectetur ut a
+                                            exercitationem assumenda omnis
+                                            molestiae quibusdam sunt sit!
+                                        </span>
+                                    </p>
+                                    <button class="card__link">Readmore</button>
+                                </div>
+                            </div>
+                            <div class="marketing__card card">
+                                <img src="./img/card3.png" alt="macbook"
+                                    class="card__img">
+                                <div class="card__info">
+                                    <p class="card__text">
+                                        Revamping the
+                                        Membership Model with Triathlon
+                                        Australia
+                                        <span class="card__textmore">
+                                            Lorem,
+                                            ipsum dolor sit amet consectetur
+                                            adipisicing elit. Necessitatibus,
+                                            aliquid consectetur ut a
+                                            exercitationem assumenda omnis
+                                            molestiae quibusdam sunt sit!
+                                        </span>
+                                    </p>
+                                    <button class="card__link">Readmore</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page__demo demo">
+                    <div class="demo__container">
+                        <h2 class="demo__title">Pellentesque suscipit fringilla
+                            libero eu.</h2>
+                        <a href="./img/tesla.png" download="tesla.png"
+                            class="demo__button">Get a Demo</a>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer__container">
+                    <div class="footer__contacts">
+                        <a href="#header-logo" class="footer__logo"><img
+                                src="./img/icons/footer-logo.svg"
+                                alt="logo"></a>
+                        <p class="footer__text"><span>Copyright © 2020 Nexcent
+                                ltd.</span>
+                            <span>All rights reserved</span>
+                        </p>
+                        <div class="footer__social">
+                            <a href="./https://www.instagram.com/"
+                                class="footer__icon"></a>
+                            <a href="./https://dribbble.com/"
+                                class="footer__icon"></a>
+                            <a href="./https://x.com/" class="footer__icon"></a>
+                            <a href="./https://www.youtube.com/"
+                                class="footer__icon"></a>
+                        </div>
+                    </div>
+                    <div class="footer__info">
+                        <nav class="footer__menu menu-footer">
+                            <ul class="menu-footer__list">
+                                <h3 class="menu-footer__title">Company</h3>
+                                <li class="menu-footer__item">
+                                    <a href class="menu-footer__link">About
+                                        us</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href class="menu-footer__link">Blog</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href class="menu-footer__link">Contact
+                                        us</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href
+                                        class="menu-footer__link">Pricing</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href
+                                        class="menu-footer__link">Testimonials</a>
+                                </li>
+                            </ul>
+                            <ul class="menu-footer__list">
+                                <h3 class="menu-footer__title">Support</h3>
+                                <li class="menu-footer__item">
+                                    <a href="#" class="menu-footer__link">Help
+                                        center</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="#" class="menu-footer__link">Terms
+                                        of
+                                        service</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="#"
+                                        class="menu-footer__link">Legal</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="#"
+                                        class="menu-footer__link">Privacy
+                                        policy</a>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="#"
+                                        class="menu-footer__link">Status</a>
+                                </li>
+                            </ul>
+                            <form action="#" class="menu-footer__form">
+                                <h3 class="menu-footer__title">Stay up to
+                                    date</h3>
+                                <input type="email"
+                                    placeholder="Your email address"
+                                    class="menu-footer__input" id="cleanInput">
+                            </form>
+                        </nav>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
